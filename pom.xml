@@ -100,7 +100,7 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
+         <profile>
             <id>parallel</id>
             <build>
                 <plugins>
@@ -108,6 +108,17 @@
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
+                            <parallel>both</parallel>
+                            <threadCount>2</threadCount>
+                            <forkCount>2</forkCount>
+                            <threadCountSuites>2</threadCountSuites>
+                            <reuseForks>true</reuseForks>
+                            <includes>
+                                <include>*Spec.*</include>
+                            </includes>
+                            <systemPropertyVariables>
+                                <geb.build.reportsDir>target/surefire-reports/Parallel</geb.build.reportsDir>
+                            </systemPropertyVariables>
                             <suiteXmlFiles>
                                 <suiteXmlFile>config/parallel.testng.xml</suiteXmlFile>
                             </suiteXmlFiles>

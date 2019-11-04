@@ -13,8 +13,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class StepDefs {
-    public static final String USERNAME = "<browserstack-username>";
-    public static final String AUTOMATE_KEY = "<browserstack-access-key>";
+    public static final String USERNAME = "BROWSERSTACK_USERNAME";
+    public static final String AUTOMATE_KEY = "BROWSERSTACK_ACCESS_KEY";
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
     DesiredCapabilities caps;
     WebDriver driver;

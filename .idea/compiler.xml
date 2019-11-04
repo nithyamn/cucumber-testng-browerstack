@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="nitya" />
+        <module name="cucumber_java_testng" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="nitya" target="1.5" />
+      <module name="cucumber_java_testng" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

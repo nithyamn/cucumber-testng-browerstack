@@ -12,22 +12,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import com.browserstack.local.Local;
-
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
-
 
 
 public class StepDefs {
 
     WebDriver driver;
-    Local l;
     WebElement element;
-    public static final String USERNAME = "<browserstack-username>";
-    public static final String AUTOMATE_KEY = "<browserstack-access-key>";
+    public static final String USERNAME = "BROWSERSTACK_USERNAME";
+    public static final String AUTOMATE_KEY = "BROWSERSTACK_ACCESS_KEY";
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
 
     @Given("Open Chrome")

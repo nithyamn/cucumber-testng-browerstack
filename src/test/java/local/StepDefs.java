@@ -38,7 +38,7 @@ public class StepDefs {
 
     @When("Go to localhost")
     public void go_to_localhost() {
-        driver.get("http://localhost:45691/check");
+        driver.get("http://bs-local.com:45691/check");
     }
 
     @Then("Retrieve Title if Up and Running")

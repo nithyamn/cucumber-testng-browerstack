@@ -43,7 +43,7 @@ public class StepDefs {
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Firefox");
         caps.setCapability("browser_version", "70.0");
-        caps.setCapability("build", "Cucumber Java TestNG");
+        caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "parallel_test");
 
         driver = new RemoteWebDriver(new URL(URL), caps);

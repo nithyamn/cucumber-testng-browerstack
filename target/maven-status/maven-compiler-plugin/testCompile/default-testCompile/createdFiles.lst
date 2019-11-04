@@ -1,0 +1,6 @@
+parallel/StepDefs.class
+single/RunCucumberSingleTest.class
+local/RunCucumberLocalTest.class
+parallel/RunCucumberParallelTest.class
+single/StepDefs.class
+local/StepDefs.class

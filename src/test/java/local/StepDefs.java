@@ -31,8 +31,17 @@ public class StepDefs {
         caps.setCapability("browser_version", "75.0");
         caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "local_test");
-        caps.setCapability("browserstack.local", browserstackLocal);
+        caps.setCapability("browserstack.local", browserstackLocal);//Note: the value for browserstack.local should be String and not boolean.
         caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
+        
+        if(caps.getCapability("browserstack.local") != null && caps.getCapability("browserstack.local") == "true"){
+            System.out.println("INSIDE CODE BINDINGS");
+            l = new Local();
+            System.out.println("Local object: "+l);
+            Map<String, String> options = new HashMap<String, String>();
+            options.put("key", AUTOMATE_KEY);
+            l.start(options);
+        }
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
 

@@ -35,9 +35,7 @@ public class StepDefs {
         caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
         
         if(caps.getCapability("browserstack.local") != null && caps.getCapability("browserstack.local") == "true"){
-            System.out.println("INSIDE CODE BINDINGS");
             l = new Local();
-            System.out.println("Local object: "+l);
             Map<String, String> options = new HashMap<String, String>();
             options.put("key", AUTOMATE_KEY);
             l.start(options);

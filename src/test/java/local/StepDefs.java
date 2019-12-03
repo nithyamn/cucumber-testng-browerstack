@@ -1,5 +1,6 @@
 package local;
 
+import com.browserstack.local.Local;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -11,6 +12,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
 
 public class StepDefs {
     public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME"); //OR String USERNAME = "<browserstack-username>"
@@ -21,9 +24,10 @@ public class StepDefs {
     DesiredCapabilities caps;
     WebDriver driver;
     WebElement element;
+    private Local l;
 
     @Given("Open Browser")
-    public void open_Browser() throws MalformedURLException {
+    public void open_Browser() throws Exception {
         caps = new DesiredCapabilities();
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
@@ -49,8 +53,9 @@ public class StepDefs {
     }
 
     @Then("Retrieve Title if Up and Running")
-    public void retrieve_Title_if_Up_and_Running() {
+    public void retrieve_Title_if_Up_and_Running() throws Exception {
         System.out.println(driver.getTitle());
         driver.quit();
+        if(l != null) l.stop();
     }
 }

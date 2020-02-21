@@ -37,6 +37,3 @@ Cucumber-TestNG Integration with BrowserStack.
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
 =======
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
-
->>>>>>> 6baa80cc51a3edecf5a805c9ef4f6f5f29922e38
-# cucumber-testng-browserstack

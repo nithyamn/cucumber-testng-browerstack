@@ -25,6 +25,7 @@ public class StepDefs {
     WebDriver driver;
     private static Local l;
     WebElement element;
+    private Local l;
 
     @Given("Open Browser")
     public void open_Browser() throws Exception {
@@ -35,6 +36,7 @@ public class StepDefs {
         caps.setCapability("browser_version", "75.0");
         caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "local_test");
+<<<<<<< HEAD
         caps.setCapability("browserstack.local", "true");
         //caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
 
@@ -42,17 +44,30 @@ public class StepDefs {
             //System.out.println("INSIDE CODE BINDINGS");
             l = new Local();
             System.out.println("Local object: "+l);
+=======
+        caps.setCapability("browserstack.local", browserstackLocal);//Note: the value for browserstack.local should be String and not boolean.
+        caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
+        
+        if(caps.getCapability("browserstack.local") != null && caps.getCapability("browserstack.local") == "true"){
+            l = new Local();
+>>>>>>> 6baa80cc51a3edecf5a805c9ef4f6f5f29922e38
             Map<String, String> options = new HashMap<String, String>();
             options.put("key", AUTOMATE_KEY);
             l.start(options);
         }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6baa80cc51a3edecf5a805c9ef4f6f5f29922e38
         driver = new RemoteWebDriver(new URL(URL), caps);
     }
 
     @When("Go to localhost")
     public void go_to_localhost() {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6baa80cc51a3edecf5a805c9ef4f6f5f29922e38
         driver.get("http://bs-local.com:45691/check");
     }
 
@@ -60,8 +75,12 @@ public class StepDefs {
     public void retrieve_Title_if_Up_and_Running() throws Exception {
         System.out.println(driver.getTitle());
         driver.quit();
+<<<<<<< HEAD
         if (l != null) {
             l.stop();
         }
+=======
+        if(l != null) l.stop();
+>>>>>>> 6baa80cc51a3edecf5a805c9ef4f6f5f29922e38
     }
 }

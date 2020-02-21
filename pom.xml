@@ -117,7 +117,7 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
+         <profile>
             <id>parallel</id>
             <build>
                 <plugins>

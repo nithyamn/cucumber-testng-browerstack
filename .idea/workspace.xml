@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5de40b04-98ba-4aaa-bc1a-24ea4f31e355" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browserstack.err" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cucumber_java_testng.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cucumber_java_testng.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/local/StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/local/StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/parallel/RunCucumberParallelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parallel/RunCucumberParallelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/parallel/StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/parallel/StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/single/StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/single/StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/parallel/parallelFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/parallel/parallelFeature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Local/LocalTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Local/LocalTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Local/LocalTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Local/LocalTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Local/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Local/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Parallel/ParallelTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Parallel/ParallelTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Parallel/ParallelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Parallel/ParallelTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Single/SingleTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Single/SingleTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Single/SingleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Single/SingleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Single/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-local.RunCucumberLocalTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-local.RunCucumberLocalTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-parallel.RunCucumberParallelTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-parallel.RunCucumberParallelTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-single.RunCucumberSingleTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-single.RunCucumberSingleTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Local/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Local/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Local/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Local/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Local/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Local/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Local/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Local/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Parallel/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Single/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Single/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Single/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Single/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Single/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Single/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Single/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Single/testng.xml.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/local/StepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/local/StepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/parallel/StepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/parallel/StepDefs.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/parallel/parallelFeature.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/parallel/parallelFeature.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/single/StepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/single/StepDefs.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/parallel/StepDefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+            <state relative-caret-position="275">
+              <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,11 +56,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/local/RunCucumberLocalTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/local/StepDefs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2573#2589#0" expanded="true" />
+                <element signature="e#2821#2822#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/parallel/RunCucumberParallelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,11 +131,11 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/single/StepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/resources/parallel/parallelFeature.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/parallel/StepDefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/parallel/RunCucumberParallelTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/local/localFeature.feature" />
         <option value="$PROJECT_DIR$/src/test/java/local/StepDefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/parallel/StepDefs.java" />
       </list>
     </option>
   </component>
@@ -353,9 +335,9 @@
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.19670959" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49928468" visible="true" weight="0.48216832" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49928468" weight="0.48216832" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5007153" side_tool="true" weight="0.6312057" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3281027" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.32891566" />
@@ -402,16 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parallel/RunCucumberParallelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/local/localFeature.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -430,16 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/local/StepDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -470,16 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parallel/StepDefs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/single.testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -498,6 +450,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/local/StepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2573#2589#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parallel/RunCucumberParallelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parallel/StepDefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Single]">
-  <test thread-count="5" verbose="0" name="SingleTest(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Local]">
+  <test thread-count="2" verbose="0" name="LocalTest(failed)">
     <classes>
-      <class name="single.RunCucumberSingleTest">
+      <class name="local.RunCucumberLocalTest">
         <methods>
           <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
-      </class> <!-- single.RunCucumberSingleTest -->
+      </class> <!-- local.RunCucumberLocalTest -->
     </classes>
-  </test> <!-- SingleTest(failed) -->
-</suite> <!-- Failed suite [Single] -->
+  </test> <!-- LocalTest(failed) -->
+</suite> <!-- Failed suite [Local] -->

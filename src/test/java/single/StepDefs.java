@@ -14,8 +14,8 @@ import java.net.URL;
 
 public class StepDefs {
 
-    public static final String USERNAME = "BROWSERSTACK_USERNAME";
-    public static final String AUTOMATE_KEY = "BROWSERSTACK_ACCESS_KEY";
+    public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME"); //OR String USERNAME = "<browserstack-username>"
+    public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");//OR String AUTOMATE_KEY = "<browserstack-accesskey>"
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
     DesiredCapabilities caps;
     WebDriver driver;

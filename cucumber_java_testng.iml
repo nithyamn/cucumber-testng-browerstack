@@ -12,6 +12,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.browserstack:browserstack-local-java:0.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-java:4.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-core:4.7.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:gherkin:5.1.0" level="project" />

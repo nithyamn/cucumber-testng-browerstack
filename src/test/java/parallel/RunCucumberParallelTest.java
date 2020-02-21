@@ -11,3 +11,9 @@ public class RunCucumberParallelTest extends AbstractTestNGCucumberTests {
         return super.scenarios();
     }
 }
+
+
+
+
+
+

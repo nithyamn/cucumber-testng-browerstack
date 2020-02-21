@@ -32,9 +32,5 @@ Cucumber-TestNG Integration with BrowserStack.
 * [Documentation for writing Automate test scripts in Java](https://www.browserstack.com/automate/java)
 * [Customizing your tests on BrowserStack](https://www.browserstack.com/automate/capabilities)
 * [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
-<<<<<<< HEAD
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
-=======
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
->>>>>>> f6857d22662d21f6a8e7ed50ec824b54c60e8aa8
-# cucumber-testng-browserstack

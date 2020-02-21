@@ -1,6 +1,6 @@
-/Users/nithyamani/Downloads/cucumber_testng/src/test/java/parallel/RunCucumberParallelTest.java
-/Users/nithyamani/Downloads/cucumber_testng/src/test/java/local/RunCucumberLocalTest.java
-/Users/nithyamani/Downloads/cucumber_testng/src/test/java/local/StepDefs.java
-/Users/nithyamani/Downloads/cucumber_testng/src/test/java/single/RunCucumberSingleTest.java
-/Users/nithyamani/Downloads/cucumber_testng/src/test/java/single/Stepdefs.java
-/Users/nithyamani/Downloads/cucumber_testng/src/test/java/parallel/StepDefs.java
+/Users/nithyamani/Desktop/MyProjects/cucumber_testng_browserstack/src/test/java/parallel/StepDefs.java
+/Users/nithyamani/Desktop/MyProjects/cucumber_testng_browserstack/src/test/java/single/StepDefs.java
+/Users/nithyamani/Desktop/MyProjects/cucumber_testng_browserstack/src/test/java/single/RunCucumberSingleTest.java
+/Users/nithyamani/Desktop/MyProjects/cucumber_testng_browserstack/src/test/java/local/StepDefs.java
+/Users/nithyamani/Desktop/MyProjects/cucumber_testng_browserstack/src/test/java/parallel/RunCucumberParallelTest.java
+/Users/nithyamani/Desktop/MyProjects/cucumber_testng_browserstack/src/test/java/local/RunCucumberLocalTest.java

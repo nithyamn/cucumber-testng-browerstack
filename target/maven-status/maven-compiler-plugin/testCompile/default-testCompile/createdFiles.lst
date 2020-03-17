@@ -1,6 +1,12 @@
+appium_android/StepDefsAndroid.class
 parallel/StepDefs.class
+appium_ios/RunCucumberIOSTest.class
+appium_android/Sample.class
 single/RunCucumberSingleTest.class
 local/RunCucumberLocalTest.class
+appium_android/UploadApp.class
+appium_android/RunCucumberAndroidTest.class
+appium_ios/StepDefsIOS.class
 parallel/RunCucumberParallelTest.class
 single/StepDefs.class
 local/StepDefs.class

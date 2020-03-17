@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Local]">
-  <test thread-count="2" verbose="0" name="LocalTest(failed)">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [IOS]">
+  <test name="IOSTest">
     <classes>
-      <class name="local.RunCucumberLocalTest">
-        <methods>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- local.RunCucumberLocalTest -->
+      <class name="appium_ios.RunCucumberIOSTest"/>
     </classes>
-  </test> <!-- LocalTest(failed) -->
-</suite> <!-- Failed suite [Local] -->
+  </test> <!-- IOSTest -->
+</suite> <!-- Failed suite [IOS] -->

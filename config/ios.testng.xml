@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IOS">
+    <test name="IOSTest">
+        <classes>
+            <class name="appium_ios.RunCucumberIOSTest"></class>
+        </classes>
+    </test>
+</suite>

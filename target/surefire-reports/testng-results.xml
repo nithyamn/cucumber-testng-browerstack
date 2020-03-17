@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Local" duration-ms="22039" started-at="2020-02-21T10:33:28Z" finished-at="2020-02-21T10:33:50Z">
+  <suite name="IOS" duration-ms="44641" started-at="2020-03-17T13:54:45Z" finished-at="2020-03-17T13:55:30Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:local.RunCucumberLocalTest@337d0578]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:appium_ios.RunCucumberIOSTest@4de8b406]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="LocalTest" duration-ms="22039" started-at="2020-02-21T10:33:28Z" finished-at="2020-02-21T10:33:50Z">
-      <class name="local.RunCucumberLocalTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:local.RunCucumberLocalTest@337d0578]" name="setUpClass" is-config="true" duration-ms="41" started-at="2020-02-21T10:33:28Z" finished-at="2020-02-21T10:33:28Z">
+    <test name="IOSTest" duration-ms="44641" started-at="2020-03-17T13:54:45Z" finished-at="2020-03-17T13:55:30Z">
+      <class name="appium_ios.RunCucumberIOSTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:appium_ios.RunCucumberIOSTest@4de8b406]" name="setUpClass" is-config="true" duration-ms="89" started-at="2020-03-17T19:24:45Z" finished-at="2020-03-17T19:24:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:local.RunCucumberLocalTest@337d0578]" name="runScenario" duration-ms="21922" started-at="2020-02-21T10:33:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-02-21T10:33:50Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:appium_ios.RunCucumberIOSTest@4de8b406]" name="runScenario" duration-ms="44510" started-at="2020-03-17T19:24:45Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-17T19:25:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Local Test"]]>
+                <![CDATA["IOS Test"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Browser Automation"]]>
+                <![CDATA["Mobile Automation"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:local.RunCucumberLocalTest@337d0578]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-02-21T10:33:50Z" finished-at="2020-02-21T10:33:50Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:appium_ios.RunCucumberIOSTest@4de8b406]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-03-17T19:25:30Z" finished-at="2020-03-17T19:25:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- local.RunCucumberLocalTest -->
-    </test> <!-- LocalTest -->
-  </suite> <!-- Local -->
+      </class> <!-- appium_ios.RunCucumberIOSTest -->
+    </test> <!-- IOSTest -->
+  </suite> <!-- IOS -->
 </testng-results>

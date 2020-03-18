@@ -33,8 +33,8 @@ Cucumber-TestNG Integration with BrowserStack.
 * [Customizing your tests on BrowserStack](https://www.browserstack.com/automate/capabilities)
 * [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
-<<<<<<< HEAD
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
-=======
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
 # cucumber-testng-browserstack-1
+# cucumber-testng-browerstack
+# cucumber-testng-browerstack

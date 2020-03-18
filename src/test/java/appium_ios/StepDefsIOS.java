@@ -30,8 +30,8 @@ public class StepDefsIOS {
     public void open_Application() throws MalformedURLException {
         //hash_id = appium_android.UploadApp.upload(USERNAME,AUTOMATE_KEY);
         caps = new DesiredCapabilities();
-        caps.setCapability("device", "iPhone 7 Plus");
-        caps.setCapability("os_version", "10");
+        caps.setCapability("device", "iPhone XS");
+        caps.setCapability("os_version", "12");
         caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "single_ios_test");
         caps.setCapability("app", APP_ID);

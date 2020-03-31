@@ -79,5 +79,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:datatable:1.1.14" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:datatable-dependencies:1.1.14" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.cucumber:cucumber-java:4.7.4" level="project" />
+    <orderEntry type="library" name="Maven: com.browserstack:automate-testassist:1.0.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />
   </component>
 </module>

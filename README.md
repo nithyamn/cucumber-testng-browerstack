@@ -12,9 +12,14 @@ Cucumber-TestNG Integration with BrowserStack.
 
 ## Running your tests
 
+#Automate
 - To run a single test, run `mvn test -P single`
 - To run local tests, run `mvn test -P local`
 - To run parallel tests, run `mvn test -P parallel`
+
+#App Automate
+- To run android test, run `mvn test -P android`
+- To run ios tests, run `mvn test -P ios`
 
  Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)
 

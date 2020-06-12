@@ -72,8 +72,9 @@ public class StepDefs {
         //start a new chrome browser
         driver.get("https://www.google.co.in/");
         element = driver.findElement(By.name("q"));
-        element.sendKeys("BrowserStack");
-        element.submit();
+        element.sendKeys("BrowserStack", Keys.ENTER);
+        
+        //element.submit();
     }
     @Then("Display Title")
     public void display_Title() {

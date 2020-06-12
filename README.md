@@ -20,7 +20,9 @@ Cucumber-TestNG Integration with BrowserStack.
 #App Automate
 - Upload your Native App (.apk file, .ipa file) to BrowserStack servers using upload API:
 
-````curl -u "username:accesskey" -X POST "https://api.browserstack.com/app-automate/upload" -F "file=@/path/to/app/file/Application-debug.apk"````
+```
+curl -u "username:accesskey" -X POST "https://api.browserstack.com/app-automate/upload" -F "file=@/path/to/app/file/Application-debug.apk"
+```
 
 - If you do not have an .apk file and looking to simply try App Automate, you can download our sample app from our documentation page https://www.browserstack.com/app-automate/appium-java and upload to the BrowserStack servers using the above API.
 

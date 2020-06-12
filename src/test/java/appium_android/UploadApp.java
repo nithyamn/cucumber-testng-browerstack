@@ -21,7 +21,7 @@ public class UploadApp {
     public static String upload(String username, String accessKey){
         System.out.println("Uploading app...");
         // the file we want to upload via code
-        File inFile = new File("/Users/nithyamani/Desktop/APPS/BStackSampleApp.ipa");
+        File inFile = new File("/path/to/file/BStackSampleApp.ipa");
         FileInputStream fis = null;
         String hash_id = "";
         try {

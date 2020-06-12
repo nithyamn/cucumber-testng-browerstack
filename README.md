@@ -24,13 +24,13 @@ Cucumber-TestNG Integration with BrowserStack.
 curl -u "username:accesskey" -X POST "https://api.browserstack.com/app-automate/upload" -F "file=@/path/to/app/file/Application-debug.apk"
 ```
 
-- If you do not have an .apk file and looking to simply try App Automate, you can download our sample app from our documentation page https://www.browserstack.com/app-automate/appium-java and upload to the BrowserStack servers using the above API.
+- If you do not have an .apk, .ipa file and looking to simply try App Automate, you can download our sample app from our documentation page https://www.browserstack.com/app-automate/appium-java and upload to the BrowserStack servers using the above API.
 
 - Update the desired capability "app" with the App URL returned from the above API call.
 
-- To run android test, run mvn test -P android
+- To run android test, run `mvn test -P android`
 
-- To run ios tests, run mvn test -P ios
+- To run ios tests, run `mvn test -P ios`
 
 
  Understand how many parallel sessions you need by using our [Parallel Test Calculator](https://www.browserstack.com/automate/parallel-calculator?ref=github)

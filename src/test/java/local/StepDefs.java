@@ -18,8 +18,8 @@ import java.util.Map;
 public class StepDefs {
     public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME"); //OR String USERNAME = "<browserstack-username>"
     public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");//OR String AUTOMATE_KEY = "<browserstack-accesskey>"
-    public static final String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
-    public static final String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
+    //public static final String browserstackLocal = System.getenv("BROWSERSTACK_LOCAL");
+    //public static final String browserstackLocalIdentifier = System.getenv("BROWSERSTACK_LOCAL_IDENTIFIER");
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
     DesiredCapabilities caps;
     WebDriver driver;
@@ -41,9 +41,9 @@ public class StepDefs {
         if (caps.getCapability("browserstack.local") != null && caps.getCapability("browserstack.local") == "true") {
             //System.out.println("INSIDE CODE BINDINGS");
             l = new Local();
-            System.out.println("Local object: " + l);
-            caps.setCapability("browserstack.local", browserstackLocal);//Note: the value for browserstack.local should be String and not boolean.
-            caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
+            //System.out.println("Local object: " + l);
+            //caps.setCapability("browserstack.local", browserstackLocal);//Note: the value for browserstack.local should be String and not boolean.
+            //caps.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
 
             if (caps.getCapability("browserstack.local") != null && caps.getCapability("browserstack.local") == "true") {
                 l = new Local();

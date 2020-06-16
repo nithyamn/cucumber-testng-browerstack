@@ -18,10 +18,7 @@ import java.util.Map;
 public class StepDefs {
     public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME"); //OR String USERNAME = "<browserstack-username>"
     public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");//OR String AUTOMATE_KEY = "<browserstack-accesskey>"
-<<<<<<< HEAD
-=======
-   
->>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
+
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
     DesiredCapabilities caps;
     WebDriver driver;
@@ -38,11 +35,7 @@ public class StepDefs {
         caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "local_test");
         caps.setCapability("browserstack.local", "true");
-<<<<<<< HEAD
 
-=======
-       
->>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
         if (caps.getCapability("browserstack.local") != null && caps.getCapability("browserstack.local") == "true") {
             //System.out.println("INSIDE CODE BINDINGS");
             l = new Local();

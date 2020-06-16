@@ -75,10 +75,6 @@ public class StepDefs {
         driver.get("https://www.google.co.in/");
         element = driver.findElement(By.name("q"));
         element.sendKeys("BrowserStack", Keys.ENTER);
-<<<<<<< HEAD
-=======
-        
->>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
         //element.submit();
     }
     @Then("Display Title")

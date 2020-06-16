@@ -57,6 +57,7 @@
             <artifactId>automate-testassist</artifactId>
             <version>1.1.0</version>
         </dependency>
+
     </dependencies>
 
     <repositories>
@@ -185,7 +186,7 @@
                         <artifactId>maven-surefire-plugin</artifactId>
                         <configuration>
                             <suiteXmlFiles>
-                                <suiteXmlFile>config/android.testng.xml</suiteXmlFile>
+                                  <suiteXmlFile>config/android.testng.xml</suiteXmlFile>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>

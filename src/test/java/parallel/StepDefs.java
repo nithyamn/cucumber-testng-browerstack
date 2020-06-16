@@ -14,6 +14,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.URL;
+import org.openqa.selenium.Keys;
 
 
 public class StepDefs {
@@ -74,6 +75,10 @@ public class StepDefs {
         driver.get("https://www.google.co.in/");
         element = driver.findElement(By.name("q"));
         element.sendKeys("BrowserStack", Keys.ENTER);
+<<<<<<< HEAD
+=======
+        
+>>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
         //element.submit();
     }
     @Then("Display Title")

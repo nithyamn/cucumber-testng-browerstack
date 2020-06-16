@@ -24,9 +24,15 @@ public class StepDefsAndroid {
 
     public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME"); //OR String USERNAME = "<browserstack-username>"
     public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");//OR String AUTOMATE_KEY = "<browserstack-accesskey>"
+<<<<<<< HEAD
     DesiredCapabilities caps;
     public AndroidDriver<AndroidElement> driver;
 
+=======
+   
+    DesiredCapabilities caps;
+    public AndroidDriver<AndroidElement> driver;
+>>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
 
     @Given("Open Application")
     public void open_Application() throws MalformedURLException {
@@ -36,7 +42,11 @@ public class StepDefsAndroid {
         caps.setCapability("os_version", "7.0");
         caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "single_android_test");
+<<<<<<< HEAD
         caps.setCapability("app","bs://ae210c1d04aa89db927c408f6d7da115303fba0d");
+=======
+        caps.setCapability("app","bs://<app-hashid>");
+>>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
         driver = new AndroidDriver<AndroidElement>(new URL("http://"+USERNAME+":"+AUTOMATE_KEY+"@hub-cloud.browserstack.com/wd/hub"), caps);
     }
 

@@ -52,14 +52,19 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>com.browserstack</groupId>
             <artifactId>automate-testassist</artifactId>
+<<<<<<< HEAD
             <version>1.1.0</version>
         </dependency>
+=======
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>-->
+>>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
 
     </dependencies>
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>sonatype-nexus-snapshots</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
@@ -70,7 +75,7 @@
             <id>sonatype-nexus-snapshots</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories>-->
     <build>
         <plugins>
             <plugin>
@@ -95,7 +100,7 @@
                     </systemPropertyVariables>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--<plugin>
                 <groupId>com.browserstack</groupId>
                 <artifactId>automate-maven-plugin</artifactId>
                 <version>1.1.0</version>
@@ -111,7 +116,7 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
+            </plugin>-->
         </plugins>
     </build>
     <profiles>

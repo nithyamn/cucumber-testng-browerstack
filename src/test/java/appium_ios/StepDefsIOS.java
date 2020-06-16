@@ -21,10 +21,13 @@ public class StepDefsIOS {
 
     public static final String USERNAME = System.getenv("BROWSERSTACK_USERNAME"); //OR String USERNAME = "<browserstack-username>"
     public static final String AUTOMATE_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");//OR String AUTOMATE_KEY = "<browserstack-accesskey>"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
     DesiredCapabilities caps;
     public IOSDriver<IOSElement> driver;
-    String hash_id="";
-
+ 
     @Given("Open Application")
     public void open_Application() throws MalformedURLException {
         caps = new DesiredCapabilities();
@@ -32,7 +35,11 @@ public class StepDefsIOS {
         caps.setCapability("os_version", "12");
         caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "single_ios_test");
+<<<<<<< HEAD
         caps.setCapability("app", "bs://01c84515047e72f00ce2452455b4e64aff792e02");
+=======
+        caps.setCapability("app", "bs://<app-hashid>");
+>>>>>>> cfa7c682fef3599d52318d809860cf2f5600df5a
         driver = new IOSDriver<IOSElement>(new URL("http://"+USERNAME+":"+AUTOMATE_KEY+"@hub-cloud.browserstack.com/wd/hub"), caps);
     }
 

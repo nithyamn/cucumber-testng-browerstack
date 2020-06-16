@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
+import org.openqa.selenium.Keys;
 import org.testng.asserts.Assertion;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -72,8 +73,8 @@ public class StepDefs {
         //start a new chrome browser
         driver.get("https://www.google.co.in/");
         element = driver.findElement(By.name("q"));
-        element.sendKeys("BrowserStack");
-        element.submit();
+        element.sendKeys("BrowserStack", Keys.ENTER);
+        //element.submit();
     }
     @Then("Display Title")
     public void display_Title() {

@@ -1,3 +1,7 @@
 target/
 *.iml
 .DS_Store
+.idea
+cucumber_java_testng.iml
+local.log
+.DS_Store

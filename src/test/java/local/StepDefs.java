@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -21,6 +22,7 @@ public class StepDefs {
 
     public static final String URL = "https://" + USERNAME + ":" + AUTOMATE_KEY + "@hub-cloud.browserstack.com/wd/hub";
     DesiredCapabilities caps;
+    JavascriptExecutor jse;
     WebDriver driver;
     private static Local l;
     WebElement element;
@@ -31,7 +33,7 @@ public class StepDefs {
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Chrome");
-        caps.setCapability("browser_version", "75.0");
+        caps.setCapability("browser_version", "latest");
         caps.setCapability("build", "cucumber-java-testng-browserstack");
         caps.setCapability("name", "local_test");
         caps.setCapability("browserstack.local", "true");
@@ -46,6 +48,7 @@ public class StepDefs {
                 l.start(options);
             }
             driver = new RemoteWebDriver(new URL(URL), caps);
+            jse = (JavascriptExecutor) driver;
         }
     }
     @When("Go to localhost")
@@ -56,6 +59,12 @@ public class StepDefs {
     @Then("Retrieve Title if Up and Running")
     public void retrieve_Title_if_Up_and_Running () throws Exception {
         System.out.println(driver.getTitle());
+        String content = driver.findElement(By.xpath("/html/body")).getText();
+        if(content.contains("Up and running"))
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"passed\", \"reason\": \"Successful!\"}}");
+        else
+            jse.executeScript("browserstack_executor: {\"action\": \"setSessionStatus\", \"arguments\": {\"status\": \"failed\", \"reason\": \"Unsuccessful!\"}}");
+
         driver.quit();
         if (l != null) {
             l.stop();

@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cucumber_java_testng" target="1.5" />
+      <module name="cucumber_java_testng" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
